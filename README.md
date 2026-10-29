@@ -3,7 +3,7 @@
 Site de uma empresa fictícia de fotografia de fauna do cerrado. Comecei como a mini interface da atividade de paletas
 de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e depois transformei num site completo.
 
-**Ver no ar:** https://seiabras.github.io/fotografia-do-cerrado/
+**No ar:** https://cerrado.linupedia.com.br
 
 ## Páginas
 
@@ -40,3 +40,8 @@ foram apenas redimensionadas. O autor e a licença de cada uma estão na página
 ## Como abrir
 
 É só abrir o `index.html` no navegador; não tem build nem dependência.
+
+## Segurança
+
+Segue a política de segurança dos sites do Linu Sites: tudo vem do próprio endereço, sem CDN e sem estilo ou script
+dentro do HTML (por isso não há nenhum `style="…"`: tudo está em classes no `css/estilo.css`).
