@@ -1,5 +1,9 @@
 # Fotografia do Cerrado
 
+> **In English:** a fictional wildlife photography studio from the Brazilian Cerrado. It began as a small interface for
+> a colour palette and WCAG assignment (CEUB, 2026/2) and grew into a full site, in 13 languages, with light and dark
+> modes. Live: https://cerrado.linupedia.com.br
+
 Site de uma empresa fictícia de fotografia de fauna do cerrado. Comecei como a mini interface da atividade de paletas
 de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e depois transformei num site completo.
 
