@@ -20,6 +20,16 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | [`contato.html`](contato.html) | Formulário (de demonstração: nada é enviado) |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
 
+### Scripts
+
+| Arquivo | O que faz |
+|---|---|
+| `js/tema-inicio.js` | No `<head>`, sem `defer`: aplica o tema escolhido antes de desenhar a página |
+| `js/tema.js` | O botão de tema: troca e guarda a escolha; sem escolha, segue o sistema |
+| `js/menu.js` | O menu do celular, com o `aria-expanded` em dia |
+| `js/galeria.js` | O filtro (mamíferos/aves) e a foto ampliada num `<dialog>` |
+| `js/contato.js` | O formulário: valida e confirma o que foi preenchido (o site é estático, nada é enviado) |
+
 ## Paleta e acessibilidade
 
 As cores vêm do próprio bioma, e cada uma foi testada pela fórmula de contraste da WCAG 2.2:
