@@ -15,7 +15,7 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 |---|---|
 | [`index.html`](index.html) | Abertura com foto, as últimas fotos e por que o cerrado importa |
 | [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada |
-| [`expedicoes.html`](expedicoes.html) | Três saídas fotográficas e as regras de campo |
+| [`expedicoes.html`](expedicoes.html) | Três saídas fotográficas, as regras de campo e as perguntas frequentes (abrem sem JavaScript) |
 | [`sobre.html`](sobre.html) | Missão, público e a paleta com os contrastes medidos |
 | [`contato.html`](contato.html) | Formulário (de demonstração: nada é enviado) |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
@@ -44,7 +44,9 @@ As cores vêm do próprio bioma, e cada uma foi testada pela fórmula de contras
 
 Regra que segui: as cores escuras levam texto branco e as claras, texto preto. Todo texto da página fica acima de
 4,5:1 (nível AA). Também tem link para pular ao conteúdo, foco visível, menu que funciona pelo teclado e textos
-alternativos em todas as fotos.
+alternativos em todas as fotos. No modo escuro, as amostras de areia e terra da página Sobre continuam com texto preto,
+e os links do rodapé têm pelo menos 24 px de altura. Conferido com o axe 4.10 em 31/10/2026, nos dois modos: nenhuma
+falha em nenhuma página.
 
 ## Idiomas
 
