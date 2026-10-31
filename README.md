@@ -47,9 +47,12 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`bioma.html`](bioma.html) | Onde fica (mapa dos biomas do IBGE 2019, com botões para destacar cada um), quanto de cada estado é Cerrado (calculado aqui), clima, solo, fogo e biodiversidade, com índice que acompanha a leitura |
 | [`paisagens.html`](paisagens.html) | As 11 fitofisionomias de Ribeiro e Walter (Embrapa) num corte desenhado: tocar num trecho mostra a ficha dele |
 | [`especies.html`](especies.html) | O catálogo: 23 bichos e 16 plantas, com busca (sem acento), filtro por grupo e por paisagem, só as ameaçadas (lista nacional) e o calendário das frutas nativas. Cada paisagem leva às espécies dela (`?paisagem=vereda`) |
+| [`agua.html`](agua.html) | O berço das águas: quanto de cada grande rio nasce no Cerrado (Embrapa), a esponja, os aquíferos e Águas Emendadas |
+| [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
+| [`ameacas.html`](ameacas.html) | Quanto já se perdeu (MapBiomas), o desmatamento ano a ano (PRODES/INPE), onde ele acontece, quanto está protegido e o que dá para fazer |
 | [`fontes.html`](fontes.html) | As fontes numeradas de cada número do guia |
 
-O script é o `js/guia.js`. O que vem depois, na ordem pedida: água, povos e ameaças; aprender brincando.
+O script é o `js/guia.js`. O que vem depois: aprender brincando. Em português, o menu tem as partes do guia; Expedições e Sobre ficam no rodapé.
 
 ## Só em português por enquanto (31/10/2026)
 
