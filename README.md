@@ -18,7 +18,7 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 |---|---|
 | [`index.html`](index.html) | Abertura com foto, as últimas fotos e por que o cerrado importa |
 | [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada, com o nome, o nome científico e o texto; passa para a anterior e a próxima pelos botões, pelas setas do teclado ou deslizando o dedo. Em português, cada foto leva à ficha da espécie, e o “Do tamanho de quê?” compara os cinco com a altura de uma pessoa |
-| `especie-*.html` | Uma ficha por espécie: as 5 com foto (lobo-guará, tamanduá-bandeira, arara-canindé, seriema, tucano-toco) e, desde 31/10, as outras 65 espécies do catálogo do guia (todas as 70 têm ficha), com “Foto em breve” até a foto chegar em `img/especies/`. Nas fichas: medidas, o que come, quando aparece, como reconhecer, como fotografar, onde a gente vê e o bicho em escala ao lado de uma pessoa de 1,70 m. Só em português |
+| `especie-*.html` | Uma ficha por espécie: as 5 com foto (lobo-guará, tamanduá-bandeira, arara-canindé, seriema, tucano-toco) e, desde 31/10, as outras 65 espécies do catálogo do guia (todas as 70 têm ficha), com “Foto em breve” até a foto chegar em `img/especies/`. Nas fichas: medidas, o que come, quando aparece, como reconhecer, como fotografar, onde a gente vê e o bicho em escala ao lado de uma pessoa de 1,70 m. Desde 1/11, 36 fichas têm “Não confunda com”: 21 pares de espécies parecidas lado a lado, com a diferença numa frase. Só em português |
 | [`diario.html`](diario.html) | Diário de campo: três relatos de expedição, com links para a ficha e para o contato já preenchido. Só em português |
 | [`como-fotografamos.html`](como-fotografamos.html) | A regra de distância, a luz, o equipamento, a edição e de onde vêm as fotos do site. Só em português |
 | [`404.html`](404.html) | A página de erro, com endereços absolutos (aparece em qualquer caminho que não existe) |
@@ -55,7 +55,7 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
 | [`ameacas.html`](ameacas.html) | Quanto já se perdeu (MapBiomas), o desmatamento ano a ano (PRODES/INPE), onde ele acontece, quanto está protegido e o que dá para fazer |
 | [`onde-ver.html`](onde-ver.html) | Onde ver o Cerrado: 13 parques numerados sobre o mapa dos biomas, com o que se vê em cada um (posições aproximadas) |
-| [`aprender.html`](aprender.html) | Quiz de 16 perguntas por tema (com explicação e link para o guia), “Qual paisagem é esta?” (o desenho do corte, sem o nome, e três opções) e um glossário com busca (`js/aprender.js`) |
+| [`aprender.html`](aprender.html) | Quiz de 16 perguntas por tema (com explicação e link para o guia), “Qual é esta espécie?” (desde 1/11: dez espécies por partida, adivinhadas pelas pistas das fichas, com “Mais uma pista”), “Qual paisagem é esta?” (o desenho do corte, sem o nome, e três opções) e um glossário com busca (`js/aprender.js`) |
 | [`fontes.html`](fontes.html) | As fontes numeradas de cada número do guia |
 
 O script é o `js/guia.js`. As quatro partes pedidas estão prontas (o bioma e as paisagens; fauna e flora; água, povos e ameaças; aprender brincando). Em português, o menu tem as partes do guia; Expedições e Sobre ficam no rodapé. São 32 fontes numeradas. Fotos novas entram sozinhas: `img/especies/<id>.webp` e `<id>-640.webp`, com o crédito em
