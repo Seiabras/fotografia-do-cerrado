@@ -14,8 +14,8 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | Página | O que tem |
 |---|---|
 | [`index.html`](index.html) | Abertura com foto, as últimas fotos e por que o cerrado importa |
-| [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada |
-| [`expedicoes.html`](expedicoes.html) | Três saídas fotográficas, as regras de campo e as perguntas frequentes (abrem sem JavaScript) |
+| [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada, com o nome, o nome científico e o texto; passa para a anterior e a próxima pelos botões, pelas setas do teclado ou deslizando o dedo |
+| [`expedicoes.html`](expedicoes.html) | “Quando ir?” (escolher o mês e ver a estação e as saídas na melhor época), três saídas fotográficas, as regras de campo e as perguntas frequentes (abrem sem JavaScript) |
 | [`sobre.html`](sobre.html) | Missão, público e a paleta com os contrastes medidos |
 | [`contato.html`](contato.html) | Formulário (de demonstração: nada é enviado) |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
@@ -27,8 +27,25 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | `js/tema-inicio.js` | No `<head>`, sem `defer`: aplica o tema escolhido antes de desenhar a página |
 | `js/tema.js` | O botão de tema: troca e guarda a escolha; sem escolha, segue o sistema |
 | `js/menu.js` | O menu do celular, com o `aria-expanded` em dia |
-| `js/galeria.js` | O filtro (mamíferos/aves) e a foto ampliada num `<dialog>` |
+| `js/galeria.js` | O filtro (mamíferos/aves) e a foto ampliada num `<dialog>`, com anterior e próxima (botões, setas do teclado e deslizar) |
+| `js/quando.js` | O “Quando ir?”: os 12 meses no idioma da página (pelo `Intl`), a estação e o selo “Melhor época” em cada expedição |
 | `js/contato.js` | O formulário: valida e confirma o que foi preenchido (o site é estático, nada é enviado) |
+
+## Caderno de campo (31/10/2026)
+
+A identidade é a de um caderno de campo, sem mexer na paleta da atividade:
+
+- **Títulos e nomes científicos na Newsreader** (licença OFL, `fontes/OFL.txt`), servida pelo próprio site, só com o
+  alfabeto latino (48 KB nos dois arquivos). O texto continua na fonte do aparelho; em japonês, coreano e chinês os
+  títulos também.
+- **Fotos sem caixa em volta**, como numa revista. Na inicial, no computador, a primeira foto ocupa a altura das outras
+  duas; no tablet, vai de lado a lado.
+- **Os números do cerrado** em tipografia grande separada por fios, no lugar dos três cartões iguais.
+- **Expedições:** no computador, o “Quando ir?” fica parado numa coluna ao lado da lista; no celular, os meses rolam de
+  lado, e cada mês tem embaixo a cor da estação (oliva nas chuvas, areia no começo da seca, marrom no auge).
+- **Fotos em WebP**, cada uma com uma versão de 640 px para o celular (`srcset`): as páginas abrem com 33 a 86 KB no
+  celular.
+- **Troca de página suave** (View Transitions), com o cabeçalho parado; nada se mexe com “menos movimento” ligado.
 
 ## Paleta e acessibilidade
 
@@ -65,7 +82,8 @@ medidas pela fórmula de contraste da WCAG, com a mesma regra do modo claro.
 ## Fotos
 
 Todas são do [Wikimedia Commons](https://commons.wikimedia.org/), com licença livre (CC BY, CC BY-SA ou CC0), e
-foram apenas redimensionadas. O autor e a licença de cada uma estão na página de créditos e em `img/creditos.json`.
+foram apenas redimensionadas e convertidas para WebP. O autor e a licença de cada uma estão na página de créditos e em
+`img/creditos.json`.
 
 ## Como abrir
 
