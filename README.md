@@ -49,6 +49,7 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`index.html`](index.html) | Em português, a inicial do guia: três números, as portas para cada parte e algumas espécies |
 | [`bioma.html`](bioma.html) | Onde fica (mapa dos biomas do IBGE 2019, com botões para destacar cada um), quanto de cada estado é Cerrado (calculado aqui), clima, solo, fogo e biodiversidade, com índice que acompanha a leitura |
 | [`paisagens.html`](paisagens.html) | As 11 fitofisionomias de Ribeiro e Walter (Embrapa) num corte desenhado: tocar num trecho mostra a ficha dele |
+| `paisagem-*.html` | Uma página por paisagem (11): o desenho dela entre as vizinhas do corte (ou a foto, quando houver), como reconhecer, por que importa, onde ver (os parques de Onde ver) e as espécies dela, tiradas do catálogo |
 | [`especies.html`](especies.html) | O catálogo: 70 espécies (bichos e plantas), com busca (sem acento), filtro por grupo e por paisagem, só as ameaçadas (lista nacional) e o calendário das frutas nativas. Cada paisagem leva às espécies dela (`?paisagem=vereda`) |
 | [`agua.html`](agua.html) | O berço das águas: quanto de cada grande rio nasce no Cerrado (Embrapa), a esponja, os aquíferos e Águas Emendadas |
 | [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
