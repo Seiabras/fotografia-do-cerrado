@@ -55,6 +55,8 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
 | [`ameacas.html`](ameacas.html) | Quanto já se perdeu (MapBiomas), o desmatamento ano a ano (PRODES/INPE), onde ele acontece, quanto está protegido e o que dá para fazer |
 | [`onde-ver.html`](onde-ver.html) | Onde ver o Cerrado: 13 parques numerados sobre o mapa dos biomas, com o que se vê em cada um (posições aproximadas) |
+| [`mes-a-mes.html`](mes-a-mes.html) | O Cerrado mês a mês (1/11): escolha o mês e veja o que floresce, que fruta está madura, que bicho aparece e o que acontece na paisagem; 23 acontecimentos, cada um com a fonte da ficha (`js/mes-a-mes.js`) |
+| [`como-ajudar.html`](como-ajudar.html) | Como ajudar o Cerrado (1/11): registrar, denunciar (Ibama, 193, 190), socorrer um bicho, comprar, plantar e evitar o fogo, com “Vou fazer isto” guardado no navegador (`js/como-ajudar.js`) |
 | [`aprender.html`](aprender.html) | Quiz de 16 perguntas por tema (com explicação e link para o guia), “Qual é esta espécie?” (desde 1/11: dez espécies por partida, adivinhadas pelas pistas das fichas, com “Mais uma pista”), “Qual paisagem é esta?” (o desenho do corte, sem o nome, e três opções) e um glossário com busca (`js/aprender.js`) |
 | [`fontes.html`](fontes.html) | As fontes numeradas de cada número do guia |
 
