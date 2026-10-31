@@ -14,10 +14,14 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | Página | O que tem |
 |---|---|
 | [`index.html`](index.html) | Abertura com foto, as últimas fotos e por que o cerrado importa |
-| [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada, com o nome, o nome científico e o texto; passa para a anterior e a próxima pelos botões, pelas setas do teclado ou deslizando o dedo |
-| [`expedicoes.html`](expedicoes.html) | “Quando ir?” (escolher o mês e ver a estação e as saídas na melhor época), três saídas fotográficas, as regras de campo e as perguntas frequentes (abrem sem JavaScript) |
-| [`sobre.html`](sobre.html) | Missão, público e a paleta com os contrastes medidos |
-| [`contato.html`](contato.html) | Formulário (de demonstração: nada é enviado) |
+| [`galeria.html`](galeria.html) | Cinco espécies com filtro (mamíferos/aves) e foto ampliada, com o nome, o nome científico e o texto; passa para a anterior e a próxima pelos botões, pelas setas do teclado ou deslizando o dedo. Em português, cada foto leva à ficha da espécie, e o “Do tamanho de quê?” compara os cinco com a altura de uma pessoa |
+| `especie-*.html` | Uma ficha por espécie (lobo-guará, tamanduá-bandeira, arara-canindé, seriema, tucano-toco): medidas, o que come, quando aparece, como reconhecer, como fotografar, onde a gente vê e o bicho em escala ao lado de uma pessoa de 1,70 m. Só em português |
+| [`diario.html`](diario.html) | Diário de campo: três relatos de expedição, com links para a ficha e para o contato já preenchido. Só em português |
+| [`como-fotografamos.html`](como-fotografamos.html) | A regra de distância, a luz, o equipamento, a edição e de onde vêm as fotos do site. Só em português |
+| [`404.html`](404.html) | A página de erro, com endereços absolutos (aparece em qualquer caminho que não existe) |
+| [`expedicoes.html`](expedicoes.html) | “Quando ir?” (escolher o mês e ver a estação e as saídas na melhor época), três saídas fotográficas, o mapa dos três parques (em português), as regras de campo e as perguntas frequentes (abrem sem JavaScript) |
+| [`sobre.html`](sobre.html) | Missão, público, a paleta com os contrastes medidos e, em português, o “Teste as cores”: escolher texto e fundo da paleta e ver a razão de contraste e se passa no AA e no AAA |
+| [`contato.html`](contato.html) | Formulário (de demonstração: nada é enviado), que chega preenchido com a expedição e o mês (`?expedicao=emas&mes=7`); em português, com o mês da viagem e o quadro “Sua saída” |
 | [`creditos.html`](creditos.html) | Autor e licença de cada foto |
 
 ### Scripts
@@ -29,7 +33,23 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | `js/menu.js` | O menu do celular, com o `aria-expanded` em dia |
 | `js/galeria.js` | O filtro (mamíferos/aves) e a foto ampliada num `<dialog>`, com anterior e próxima (botões, setas do teclado e deslizar) |
 | `js/quando.js` | O “Quando ir?”: os 12 meses no idioma da página (pelo `Intl`), a estação e o selo “Melhor época” em cada expedição |
-| `js/contato.js` | O formulário: valida e confirma o que foi preenchido (o site é estático, nada é enviado) |
+| `js/contato.js` | O formulário: preenche pelo endereço, mostra o erro embaixo do campo assim que a pessoa sai dele (a frase é a do navegador, no idioma de quem visita), monta o quadro “Sua saída” e confirma o que foi preenchido (o site é estático, nada é enviado) |
+| `js/contraste.js` | O “Teste as cores” da página Sobre, com a fórmula de contraste da WCAG 2.2 |
+
+## Só em português por enquanto (31/10/2026)
+
+O pedido de 31/10 foi melhorar primeiro em português e traduzir depois. Por isso:
+
+- **Páginas só em português:** as cinco fichas (`especie-*.html`), o `diario.html`, o `como-fotografamos.html` e o
+  `404.html`. Estão listadas no `ferramentas/estudo/fotografia-do-cerrado/so-pt.json` do `linu-sites`, com o texto direto
+  no modelo.
+- **Trechos só em português nas outras páginas** (entre `{{?pt-BR}}` e `{{/pt-BR}}` no modelo): o “Diário” no menu e
+  “Como fotografamos” no rodapé; “Ver a ficha” na galeria e na inicial; o “Do tamanho de quê?” da galeria; o mapa das
+  Expedições; o “Teste as cores” do Sobre; o mês da viagem e o quadro “Sua saída” do Contato; o “Mapa e fontes” dos
+  créditos.
+- **Para traduzir:** trocar o texto por chaves nos 13 `textos/<código>.json`, tirar os `{{?pt-BR}}` e esvaziar o
+  `so-pt.json`. Até lá, as páginas nas outras 12 línguas ficam como estavam em 31/10, com o “Quando ir?”, a foto ampliada
+  nova e o contato preenchido, que já funcionam em todas.
 
 ## Caderno de campo (31/10/2026)
 
