@@ -36,6 +36,20 @@ de cores e WCAG da disciplina de Desenvolvimento de Interfaces (CEUB, 2026/2) e 
 | `js/contato.js` | O formulário: preenche pelo endereço, mostra o erro embaixo do campo assim que a pessoa sai dele (a frase é a do navegador, no idioma de quem visita), monta o quadro “Sua saída” e confirma o que foi preenchido (o site é estático, nada é enviado) |
 | `js/contraste.js` | O “Teste as cores” da página Sobre, com a fórmula de contraste da WCAG 2.2 |
 
+## Guia do cerrado (31/10/2026)
+
+Pedido de 31/10: “o site mais completo sobre o cerrado do mundo”, em português primeiro. O site passa a ser um guia do
+bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a página `fontes.html`, numerada).
+
+| Página | O que tem |
+|---|---|
+| [`index.html`](index.html) | Em português, a inicial do guia: três números, as portas para cada parte e algumas espécies |
+| [`bioma.html`](bioma.html) | Onde fica (mapa dos biomas do IBGE 2019, com botões para destacar cada um), quanto de cada estado é Cerrado (calculado aqui), clima, solo, fogo e biodiversidade, com índice que acompanha a leitura |
+| [`paisagens.html`](paisagens.html) | As 11 fitofisionomias de Ribeiro e Walter (Embrapa) num corte desenhado: tocar num trecho mostra a ficha dele |
+| [`fontes.html`](fontes.html) | As fontes numeradas de cada número do guia |
+
+O script é o `js/guia.js`. O que vem depois, na ordem pedida: fauna e flora; água, povos e ameaças; aprender brincando.
+
 ## Só em português por enquanto (31/10/2026)
 
 O pedido de 31/10 foi melhorar primeiro em português e traduzir depois. Por isso:
