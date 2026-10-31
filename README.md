@@ -50,9 +50,10 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`agua.html`](agua.html) | O berço das águas: quanto de cada grande rio nasce no Cerrado (Embrapa), a esponja, os aquíferos e Águas Emendadas |
 | [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
 | [`ameacas.html`](ameacas.html) | Quanto já se perdeu (MapBiomas), o desmatamento ano a ano (PRODES/INPE), onde ele acontece, quanto está protegido e o que dá para fazer |
+| [`aprender.html`](aprender.html) | Quiz de 16 perguntas por tema (com explicação e link para o guia), “Qual paisagem é esta?” (o desenho do corte, sem o nome, e três opções) e um glossário com busca (`js/aprender.js`) |
 | [`fontes.html`](fontes.html) | As fontes numeradas de cada número do guia |
 
-O script é o `js/guia.js`. O que vem depois: aprender brincando. Em português, o menu tem as partes do guia; Expedições e Sobre ficam no rodapé.
+O script é o `js/guia.js`. As quatro partes pedidas estão prontas (o bioma e as paisagens; fauna e flora; água, povos e ameaças; aprender brincando). Em português, o menu tem as partes do guia; Expedições e Sobre ficam no rodapé. São 32 fontes numeradas.
 
 ## Só em português por enquanto (31/10/2026)
 
