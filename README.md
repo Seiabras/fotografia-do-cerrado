@@ -170,3 +170,10 @@ e funciona sem internet pelo `sw.js`, gerado pelo `guia-pt.py` do `linu-sites` (
   2,9 MB), com o progresso na tela; quem guardou continua com o guia inteiro quando sai versão nova.
 - Sem suporte a service worker, nada muda. No servidor, `sw.js` e o manifesto vão com `Cache-Control: no-cache`.
 
+## Para a escola (1/11/2026)
+
+`escola.html`: um plano de aula de 50 minutos (“o Cerrado, a caixa-d’água do Brasil”), três atividades (qual é esta
+espécie?, quando acontece?, as palavras do Cerrado), um cartaz com os números do bioma e as respostas. Tudo sai do que o
+guia já diz (as pistas das fichas, o Mês a mês e o glossário), com o botão “Imprimir tudo” (`js/escola.js`); na
+impressão, cada folha vai numa página, sem menu nem rodapé. O Aprender e o rodapé levam a ela.
+
