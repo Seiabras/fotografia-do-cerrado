@@ -156,3 +156,15 @@ Pela regra 6 do linuarquivos, cada aparelho tem o seu layout, não a mesma pági
 | O bioma, Água, Povos, Ameaças, Como ajudar | índice em faixa no alto; uma coluna | índice em faixa; as seções curtas em 2 colunas, mapas e gráficos na linha inteira | índice parado à esquerda; o texto ao lado |
 | Aprender | o índice vira abas: um jogo por vez | abas, um jogo por vez | os jogos em 2 colunas (a partir de 1200 px), todos à vista |
 
+## O guia sem internet (1/11/2026)
+
+Nos parques quase nunca tem sinal. O guia em português é instalável (`manifest.webmanifest`, ícones de 192 e 512 px)
+e funciona sem internet pelo `sw.js`, gerado pelo `guia-pt.py` do `linu-sites` (não editar à mão):
+
+- **Uma cache só, com versão** (`cerrado-` e um resumo do conteúdo): quando o guia muda, a versão muda e as antigas
+  são apagadas; no máximo 400 endereços.
+- **Páginas:** primeiro a rede; sem sinal, a cópia guardada. **Arquivos** (CSS, JS, fontes, fotos): a cópia guardada.
+- **“Guardar o guia”** (em Onde ver e em Monte sua visita): baixa de uma vez as 183 páginas e arquivos (cerca de
+  2,9 MB), com o progresso na tela; quem guardou continua com o guia inteiro quando sai versão nova.
+- Sem suporte a service worker, nada muda. No servidor, `sw.js` e o manifesto vão com `Cache-Control: no-cache`.
+
