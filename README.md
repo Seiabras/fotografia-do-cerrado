@@ -153,4 +153,5 @@ Pela regra 6 do linuarquivos, cada aparelho tem o seu layout, não a mesma pági
 | Inicial | números numa faixa que rola de lado; portas em ladrilhos de 2 colunas, sem descrição | portas em 2 colunas, a grande ocupando a linha | portas em 3 colunas, a grande em pé |
 | Fichas | foto baixa, tudo em uma coluna | foto e resumo lado a lado; corpo em 2 colunas | foto, resumo e fatos parados à esquerda; o resto rola em 2 colunas |
 | Listas e índices | faixas que rolam de lado | faixa no alto | coluna parada ao lado |
+| Aprender | o índice vira abas: um jogo por vez | abas, um jogo por vez | os jogos em 2 colunas (a partir de 1200 px), todos à vista |
 
