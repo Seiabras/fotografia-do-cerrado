@@ -55,6 +55,7 @@ bioma, com a parte de expedições em segundo plano. Cada número tem fonte (a p
 | [`povos.html`](povos.html) | Os povos do Cerrado: indígenas, Kalunga, geraizeiros, quebradeiras de coco babaçu e outros |
 | [`ameacas.html`](ameacas.html) | Quanto já se perdeu (MapBiomas), o desmatamento ano a ano (PRODES/INPE), onde ele acontece, quanto está protegido e o que dá para fazer |
 | [`onde-ver.html`](onde-ver.html) | Onde ver o Cerrado: 13 parques numerados sobre o mapa dos biomas, com o que se vê em cada um (posições aproximadas) |
+| [`caderno.html`](caderno.html) | Meu caderno de campo (1/11): as espécies que a pessoa marcou em “Vi no campo” (botão em cada ficha, com data e parque), a contagem (N de 114) e por grupo, a lista de avistamentos, copiar e baixar em CSV; guardado só no navegador; o catálogo marca as vistas (`js/caderno.js`) |
 | [`busca.html`](busca.html) | Buscar no guia (1/11): espécies (nome comum ou científico), paisagens, parques, povos, glossário, Mês a mês e páginas, sem acento e sem servidor; o índice (cerca de 200 itens) vai dentro da página; a lupa fica no menu (`js/busca.js`) |
 | [`roteiro.html`](roteiro.html) | Monte sua visita (1/11): escolha o parque e o mês e veja a estação, as paisagens, as espécies para procurar (os destaques do parque primeiro) e o que acontece no mês (`js/roteiro.js`) |
 | [`mes-a-mes.html`](mes-a-mes.html) | O Cerrado mês a mês (1/11): escolha o mês e veja o que floresce, que fruta está madura, que bicho aparece e o que acontece na paisagem; 23 acontecimentos, cada um com a fonte da ficha (`js/mes-a-mes.js`) |
