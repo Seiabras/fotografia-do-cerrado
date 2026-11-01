@@ -142,3 +142,15 @@ foram apenas redimensionadas e convertidas para WebP. O autor e a licença de ca
 
 Segue a política de segurança dos sites do Linu Sites: tudo vem do próprio endereço, sem CDN e sem estilo ou script
 dentro do HTML (por isso não há nenhum `style="…"`: tudo está em classes no `css/estilo.css`).
+
+## Três versões: celular, tablet e computador (1/11/2026)
+
+Pela regra 6 do linuarquivos, cada aparelho tem o seu layout, não a mesma página esticada:
+
+| | Celular (até 699 px) | Tablet (700 a 1099 px) | Computador (1100 px ou mais) |
+|---|---|---|---|
+| Navegação | barra presa embaixo (Início, Espécies, Mês a mês, Aprender, Buscar) e o botão “Menu” | botão “Menu” (o menu de 8 itens não cabe) | menu aberto no topo, com a lupa |
+| Inicial | números numa faixa que rola de lado; portas em ladrilhos de 2 colunas, sem descrição | portas em 2 colunas, a grande ocupando a linha | portas em 3 colunas, a grande em pé |
+| Fichas | foto baixa, tudo em uma coluna | foto e resumo lado a lado; corpo em 2 colunas | foto, resumo e fatos parados à esquerda; o resto rola em 2 colunas |
+| Listas e índices | faixas que rolam de lado | faixa no alto | coluna parada ao lado |
+
